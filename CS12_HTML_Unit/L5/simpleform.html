@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+  </head>
+
+<body>
+    <h1>Hockey Stick Order Form</h1>
+
+
+<form action="/submit" method="post">
+    <h2>Customer Info</h2>
+    <p>
+        <lable for="name">Full Name:</lable>
+        <input type="text" id="name" name="name" required>
+    </p>
+    <p>
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email">
+    </p>
+    <h2>Curve Type</h2>
+    <p>
+        <input type="radio" name="curve" id="p28" value="28">
+        <lable for="p28">P28</lable>
+    </p>
+    <p>
+        <input type="radio" name="curve" id="p92" value="92">
+        <lable for="p92">P92</lable>
+    </p>
+    <p>
+        <input type="radio" name="curve" id="p88" value="88">
+        <lable for="p88">P88</lable>
+    </p>
+
+    <h2>Flex</h2>
+    <p>
+        <select name="flex">
+            <option value="65">65</option>
+            <option value="70">70</option>
+            <option value="77">77</option>
+            <option value="87">87</option>
+          </select>
+        
+    
+    </p>
+    <button type="submit">Send</button>
+</form>
+</body>
